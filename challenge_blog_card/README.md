@@ -28,7 +28,7 @@ Pengguna seharusnya dapat:
 - Menikmati tampilan yang **responsif**, baik di perangkat mobile maupun desktop.  
 
 ### 📸 Tangkapan Layar
-*(Tangkapan layar proyek akan ditambahkan di sini nanti.)*
+![Tampilan hasil proyek](https://raw.githubusercontent.com/Alid-decode/Frontend-challenge/refs/heads/main/challenge_blog_card/Screenshot_2025-10-30-18-38-28-95_40deb401b9ffe8e1df2f1cc5ba480b12.jpg)
 
 ---
 
