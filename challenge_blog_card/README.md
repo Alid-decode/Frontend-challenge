@@ -33,8 +33,8 @@ Pengguna seharusnya dapat:
 ---
 
 ### 🔗 Tautan
-- 🔧 **Solution URL:** [Klik di sini](https://www.frontendmentor.io/solutions/)
-- 🚀 **Live Site URL:** [https://alid-decode.github.io/Frontend-challenge/challenge-qr/](https://alid-decode.github.io/Frontend-challenge/challenge-qr/)
+- 🔧 **Solution URL:** [Klik di sini](https://www.frontendmentor.io/solutions/blogcard-M_CRy5Ob4A)
+- 🚀 **Live Site URL:** [https://alid-decode.github.io/Frontend-challenge/challenge-qr/](https://alid-decode.github.io/Frontend-challenge/challenge_blog_card/)
 
 ---
 
@@ -84,7 +84,7 @@ Ke depan, saya ingin:
 ## ✍️ Penulis
 - **Nama:** Alid (Alid-decode)  
 - **Frontend Mentor:** [@alid-decode](https://www.frontendmentor.io/profile/Alid-decode)  
-- **GitHub:** [AlidTech](https://github.com/AlidTech)
+- **GitHub:** [Alid-decode](https://github.com/Alid-decode)
 
 ## 💬 Ucapan Terima Kasih
 Proyek ini saya kerjakan **sendiri** sebagai latihan dari [Frontend Mentor](https://www.frontendmentor.io/).  
