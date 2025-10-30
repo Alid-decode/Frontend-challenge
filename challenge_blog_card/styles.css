@@ -1,0 +1,141 @@
+/* === VARIABLES === */
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+  --font-main: 'Figtree', sans-serif;
+}
+
+/* === GLOBAL === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--yellow);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+
+/* == CARD == */
+.card {
+  background-color: var(--white);
+  border: 1px solid var(--gray-950);
+  border-radius: 20px;
+  box-shadow: 8px 8px 0 var(--gray-950);
+  overflow: hidden;
+  max-width: 380px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 12px 12px 0 var(--gray-950);
+}
+
+/* == IMAGE == */
+.card-image {
+  width: 100%;
+  border-radius: 15px;
+  margin: 1rem;
+}
+
+/* == CONTENT == */
+.card-content {
+  padding: 0 1.5rem 1.5rem;
+}
+
+.card-tag {
+  display: inline-block;
+  background-color: var(--yellow);
+  color: var(--gray-950);
+  font-weight: 800;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.card-date {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: var(--gray-950);
+}
+
+.card-title {
+  margin: 1rem 0 0.8rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.card-link {
+  color: var(--gray-950);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.card-link:hover,
+.card-link:focus {
+  color: var(--yellow);
+  outline: none;
+}
+
+.card-desc {
+  color: var(--gray-500);
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* == AUTHOR == */
+.card-author {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.author-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.author-name {
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: var(--gray-950);
+}
+
+/* == ATTRIBUTION == */
+.attribution {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: var(--gray-950);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+/* == RESPONSIVE == */
+@media (max-width: 375) {
+  .card {
+    max-width: 100%;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  .card-desc {
+    font-size: 0.95rem;
+  }
+}
